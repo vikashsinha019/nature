@@ -1,0 +1,243 @@
+.title{
+    background-color: yellowgreen;
+    padding: 8rem 0;
+}
+body{
+    padding: 30px;
+}
+h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.8;
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: all .9s;
+}
+h2:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+}
+p{
+    color: black;
+}
+
+.img1{
+   width: 55%;
+   position: absolute;
+   top: -20px;
+   left: 0;
+   
+   
+}
+.img1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+    z-index: 1;
+    transition: all .6s;
+    outline: 15px solid #fff;
+    outline-offset: 20px;
+}
+.img2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+    z-index: 1;
+    transition: all .6s;
+    outline: 15px solid #fff;
+    outline-offset: 20px;
+}
+.img3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 25px 40px rgb(0, 0, 0, .8);
+    z-index: 1;
+    transition: all .6s;
+    outline: 15px solid #fff;
+    outline-offset: 20px;
+}
+.img2{
+   width: 55%;
+   position: absolute;
+   top: 20px;
+   right: 0;
+}
+.img3{
+   width: 55%;
+   position: absolute;
+   top: 100px;
+   left: 20%;
+}
+
+/* About Section */
+
+.about{
+    padding: 7% 14%;
+    background-color: yellowgreen;
+    color: #fff;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+h3:hover{
+     transform: skewY(13deg);
+}
+.icon{
+    margin-bottom: 20px;
+    color: purple;
+    transition: all .5s;
+}
+.icon:hover{
+    color: tomato;
+    transform: scale(2);
+}
+
+/* Tour section */
+
+.tour{
+    padding: 7% 9%;
+    background-color: #fff
+}
+
+.tour-heading{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+h1{
+   font-size: 40px;
+   font-weight: 700;
+   color: yellowgreen;
+   text-transform: uppercase;
+   transition: all .8s;
+
+   
+}
+h1:hover{
+     transform: scale(1.5);
+}
+.card{
+    
+    perspective: 150rem;
+    position: relative;
+    height: 35rem;
+    margin: 15px;
+      
+}
+.card__side{
+    height: 35rem;
+    transition: all 2s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+
+}
+.card__side--front{
+   background-color: #fff;
+}
+
+.card__side--back{ 
+    transform: rotateY(180deg);
+}
+
+/* Card back background color */
+
+.card__side--back-1{
+   background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+.card__side--back-2{
+    background-image: linear-gradient(to right bottom, #5643fa, #5643fa);
+}
+
+.card__side--back-3{
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+/* card hover effect */
+
+.card:hover .card__side--front{
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back{
+    transform: rotateY(0);
+}
+
+
+.card__picture{
+   background-size: cover;
+   height: 15rem;
+   position: relative;
+
+}
+
+.card__picture--1{
+     background-image:url(https://w.wallhaven.cc/full/nk/wallhaven-nkv856.jpg);
+     
+    
+    }
+
+
+.card__picture--2{
+    background-image: url(https://w.wallhaven.cc/full/nm/wallhaven-nmxg9k.jpg);
+}
+
+.card__picture--3{
+    background-image: url(https://w.wallhaven.cc/full/2k/wallhaven-2k83jg.jpg);
+}
+
+/* Card Heading */
+
+.card__heading{
+     color: white;
+     font-size: 30px;
+     font-weight: 700;
+     position: absolute;
+     top: 10rem;
+     right: 10px;
+}
+.card__details{
+     
+     text-align: center;
+
+}
+h5{
+    margin: 30px;
+    font-weight: 400;
+    color: green;
+}
+
+.text__box{
+    text-align: center;
+}
+.back{
+   color: #fff;
+   margin-top: 8rem;
+   margin-bottom: 4rem;
+  
+}
+.back-main{
+   font-size: 20px;
+   margin-bottom: px;
+   text-transform: uppercase;
+   margin-bottom: 80px;
+   
+}
+.back-sub{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 70px;
+    
+}
+.button{
+    color: black;
+    
+    transition: all 1s;
+}
+.button:hover{
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .4) ;
+  transform: scale(1.2)
+}
